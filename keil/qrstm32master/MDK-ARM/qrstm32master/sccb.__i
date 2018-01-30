@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -IC:/Users/Administrator/STM32Cube/Repository/STM32Cube_FW_F4_V1.16.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/Administrator/STM32Cube/Repository/STM32Cube_FW_F4_V1.16.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/Administrator/STM32Cube/Repository/STM32Cube_FW_F4_V1.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/Administrator/STM32Cube/Repository/STM32Cube_FW_F4_V1.16.0/Drivers/CMSIS/Include --C99
+-I C:\Users\Administrator\Desktop\¶þÎ¬Âë´úÂë\QRQuickGet\keil\qrstm32master\MDK-ARM\RTE
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99
+-o qrstm32master\sccb.o --omf_browse qrstm32master\sccb.crf --depend qrstm32master\sccb.d "..\Src\SCCB.c"
